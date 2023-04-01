@@ -22,11 +22,15 @@ function App() {
       setwatchTime(time);
     }
   }
+
+  const handlBlogTitle = (title) => {
+    console.log("Yes Bro Xossssssssssssss!");
+  }
   return (
     <div className="App">
       <div className='main-container'>
         <div className='home-container'>
-          <Home handlWatchTime={handlWatchTime}></Home>
+          <Home handlWatchTime={handlWatchTime} handlBlogTitle={handlBlogTitle}></Home>
         </div>
         <div className='side-container'>
           <SideCart watchTime={watchTime}></SideCart>

@@ -47,11 +47,10 @@
   grid-template-columns: 4fr 2fr;
   grid-gap: 30px;
 }
-.home-container{
-  /* background-color: gray; */
-}
+/* .home-container{
+  background-color: gray;
+} */
 .side-container{
-  background-color: lightgray;
   margin-top: 50px;
   border-radius: 10px;
 }
