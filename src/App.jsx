@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Component/Home/Home'
 import SideCart from './Component/SideCart/SideCart'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [watchTime, setwatchTime] = useState("");
@@ -30,6 +32,7 @@ function App() {
           <SideCart watchTime={watchTime}></SideCart>
         </div>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   )
 }

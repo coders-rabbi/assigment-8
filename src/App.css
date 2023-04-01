@@ -1,6 +1,6 @@
 #root {
   max-width: 100%;
-  /* width: 1250px; */
+  width: 1250px;
   margin: 0 auto;
   text-align: center;
 }
@@ -45,10 +45,13 @@
 .main-container{
   display: grid;
   grid-template-columns: 4fr 2fr;
+  grid-gap: 30px;
 }
 .home-container{
-  background-color: gray;
+  /* background-color: gray; */
 }
 .side-container{
   background-color: lightgray;
+  margin-top: 50px;
+  border-radius: 10px;
 }

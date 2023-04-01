@@ -1,16 +1,24 @@
-/* .blog-container{
+.blog-container{
+    text-align: left;
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
 
-} */
+}
 
 .blog-img{
     width: 850px;
+    height: 500px;
+    border-radius: 10px;
 }
 
 .author-info{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    
+    text-align: left;
 }
 
 .author-details{
