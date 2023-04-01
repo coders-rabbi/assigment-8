@@ -6,7 +6,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { ToastContainer, toast } from 'react-toastify';
 
 const SingleBlog = ({ blog, handlWatchTime, handlBlogTitle }) => {
-    const { author, blogTitle, hashTag, img, publish, readingTime } = blog;
+    const { author, blogTitle, hashTag, img, publish, readingTime, id} = blog;
 
     // const blogHeading = () =>{
     //     toast("Already Bookmarked :)");
@@ -27,9 +27,9 @@ const SingleBlog = ({ blog, handlWatchTime, handlBlogTitle }) => {
                     <FontAwesomeIcon icon={faCoffee} />
                 </button>
             </div>
-            <h2>How to get your first job as a self taugh programer</h2>
+            <h2>{blogTitle}</h2>
             <p><small>{hashTag}</small></p>
-            <button >Mark as read</button>
+            <button onClick={ () => handlBlogTitle(blogTitle, id)}>Mark as read</button>
         </div>
     );
 };

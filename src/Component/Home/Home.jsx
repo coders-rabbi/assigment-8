@@ -15,8 +15,8 @@ const Home = ({handlWatchTime, handlBlogTitle}) => {
         <div>
             {
                 blogs.map(blog => <SingleBlog
-                    handlWatchTime={handlWatchTime}
                     handlBlogTitle={handlBlogTitle}
+                    handlWatchTime={handlWatchTime}
                     key={blog.id}
                     blog={blog}
                 ></SingleBlog>)
