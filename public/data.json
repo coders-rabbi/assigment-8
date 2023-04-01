@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=996&t=st=1680292157~exp=1680292757~hmac=b3b03e8fadf689f9f315f6a94fde3f482d5e19a18851067fbf2fd52a4e230945",
+    "author": "Jhongkar_Mahabub",
+    "publish": "mar 24 (4 days ago)",
+    "readingTime": 5,
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "hashTag": "#begainners #programmming"
+  },
+  {
+    "id": 2,
+    "img": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "author": "Gias_Uddin",
+    "publish": "mar 22 (6 days ago)",
+    "readingTime": 10,
+    "blogTitle": "Learn and master programming to open a new career opportunity",
+    "hashTag": "#begainners #programmming"
+  },
+  {
+    "id": 3,
+    "img": "https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80",
+    "author": "Rakib_Hasan",
+    "publish": "mar 20 (8 days ago)",
+    "readingTime": 12,
+    "blogTitle": "Programming jobs opportunities in the world",
+    "hashTag": "#begainners #programmming"
+  },
+  {
+    "id": 4,
+    "img": "https://images.unsplash.com/photo-1626968361222-291e74711449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "author": "Yeasin_Arafat",
+    "publish": "mar 17 (9 days ago)",
+    "readingTime": 15,
+    "blogTitle": "How fast can you learn enough programming to get a job?",
+    "hashTag": "#begainners #programmming"
+  }
+]
